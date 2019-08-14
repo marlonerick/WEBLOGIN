@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../imagens/fundo1.jpg");
+    background-position: 60% 70%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input {
+    height: 55px;
+    width: 400px;
+    margin: 5px 5px 5px 5px;
+    /*background-color: rgba(255, 255, 255, 0.01); Transparente*/
+}
+
+div#corpo-form {
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+
+div#corpo-form h1 {
+    text-align: center;
+}
+
+div#corpo-form-cad h1 {
+    text-align: center;
+}
+
+div#corpo-form a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+div#corpo-form a:hover {
+    text-decoration: underline;
+}
+
+div#corpo-form label {
+    padding: 1px 5px;
+}
+
+div#corpo-form-cad {
+    width: 420px;
+    margin: 40px auto 0px auto;
+}
+
+div#corpo-form-cad label {
+    padding: 0px 5px;
+}
+
+div#sucesso {
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(50, 205, 50, .6);
+    border: 1px solid rgb(0, 255, 0);
+}
+
+div.msg-erro {
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(241, 28, 75, 0.6);
+    border-radius: 5px;
+}
+
+.msg-erro-two {
+    width: auto;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 384px) {
+    body {
+        max-width: 466px;
+    }
+}
+
+@media (min-width: 576px) {
+    body {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
